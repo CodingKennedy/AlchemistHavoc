@@ -1,0 +1,75 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>The Question</title>
+  <link rel="stylesheet" href="TheQuestion.css">
+<!-- <script type="text/javascript" src="app.js"></script> -->
+<script type="text/javascript" src="snowstorm.js"></script>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD/7gAAAET/AACz/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIiIiIgAAESIiIiIiAAARIiIiIiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon">
+</head>
+<body>
+<div class="nav">
+          <li><a href="../Projectmain.html">Home</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <h1>The Question: <span id="question"></span></h1>
+
+<h2> Answer: <span id="answer"></span></h2>
+
+<p><span id="message"></span></p>
+<script id="jsbin-javascript">
+var question = 'What is your favorite color?';
+
+// get our answer from the user
+var answer = prompt(question);
+// check the user's answer to find the right message
+var message = checkAnswer(answer);
+
+// add our question to the h1
+var questionElem = document.getElementById('question');
+questionElem.innerHTML = question;
+
+// add the user's answer to the h2
+var answerElem = document.getElementById('answer');
+answerElem.innerHTML = answer;
+
+// add our message back to the user to the p
+var messageElem = document.getElementById('message');
+messageElem.innerHTML = message;
+
+
+function checkAnswer(answer) {
+if(answer.toLowerCase() =='red'){
+  return "red is awesome!";
+}
+else if(answer=='blue'){
+  return"Blue is cool!!";
+}
+else if(answer.toLowerCase()=='yellow'){
+  return "Yellow is mellow!";
+}
+else if(answer.toLowerCase()=='green'){
+  return "Green is mean!!";
+}
+else if(answer.toLowerCase()=='white'){
+  return "White is cool!";
+}
+else if(answer.toLowerCase()=='black'){
+  return "Black is Perfect!!";
+}
+else{
+  return answer.toUpperCase() + " is an awesome color";
+}
+}
+</script>
+
+
+</body>
+<footer>  </footer>
+</html>

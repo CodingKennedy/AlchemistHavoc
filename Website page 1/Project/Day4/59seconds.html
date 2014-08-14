@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Kennedy's Experiment</title>
+  <link rel="stylesheet" href="59seconds.css">
+
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD/7gAAAET/AACz/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIiIiIgAAESIiIiIiAAARIiIiIiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon">
+</head>
+<body>
+<div class="nav">
+          <li><a href="http://alchemisthavoc.com/">Home</a></li>
+        </ul>
+    </div>
+
+
+
+  <div>
+    <h1>Kennedy's Experiment</h1>
+
+
+    </div>
+
+<div class="container">
+    <h3>
+    <p>Recently, I have been reading the psychology book “59 seconds : change your life in under a minute” - by Richard Wiseman. There is a writing exercise that I found interesting. It is a way of journaling in a positive and hopeful light. Many of normally get stressed and worry about some aspect in our lives and if we do write these thoughts down, we focus on the bad more than the good. Writing about what ruined your day might even make it worse. </p></br>
+
+  <p>Richard has put together 5 writing activities that will help you focus your writing on more positive and productive means. I will style and put those exercises on a page for Monday through Friday. Try them out for a week and see if they change much in your day! </p>
+    </h3>
+</div>
+
+<select name="list" id="list" accesskey="target">
+    <option value='none' selected>Choose a project</option>
+    <option value="Monday/Monday.html">Monday</option>
+    <option value="Tuesday/Tuesday.html">Tuesday</option>
+    <option value="Wednesday/Wednesday.html">Wednesday</option>
+    <option value="Thursday/Thursday.html">Thursday</option>
+    <option value="Friday/Friday.html">Friday</option>
+     </select>
+<input type=button value="Go" onclick="goToNewPage()" />
+
+</body>
+<footer>  <script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script></footer>
+</html>
