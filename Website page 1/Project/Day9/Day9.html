@@ -1,0 +1,62 @@
+<!doctype html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400' rel='stylesheet' type='text/css'>
+
+  <meta charset="utf-8">
+  <title>poem</title>
+  <link rel="stylesheet" href="Day9.css">
+   <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD/7gAAAET/AACz/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIiIiIgAAESIiIiIiAAARIiIiIiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="script"></script>
+</head>
+<body>
+<h1>Poem</h1>
+<div class="containerTwo">
+          <li><a href="../Projectmain.html">Home</a></li>
+        </ul>
+      </div>
+<form id="limerick-form">
+    <!-- this input is the one you&#039;ll copy; make sure to change the name, the label and id for each one! -->
+    <p>Enter a noun: <input type="text" name="noun-one" id="noun-one" /></p>
+    <p>Enter a verb: <input type="text" name="verb-one" id="verb-one" /></p>
+    <p>Enter a number: <input type="text" name="number-one" id="number-one" /></p>
+    <p>Enter a verb: <input type="text" name="verb-two" id="verb-two" /></p>
+
+    <input type="submit" name="submit" value="Gimme a mad lib!" />
+</form>
+
+<div id="limerick">
+    <p>There was a gold duck with a <span id="noun-one-new"></span>,</p>
+    <p>Who said, "What the <span id="verb-one-new"></span>!</p>
+    <p>Two Owls and a Hen, four sharks and <span id="number-one-new"> cars</span>,</p>
+    <p>Have stolen my <span id="verb-two-new"></span>.</p>
+</div>
+<script id="jsbin-javascript">
+$(document).ready(function() {
+    // this fires when the form is submitted
+    $('#limerick-form').submit(function(e) {
+        // prevent the submit button from refreshing the page
+        e.preventDefault();
+        // copy this line (line 5) for each word you will be replacing; .val() gets the value of the input field
+        var nounOne = $('input#noun-one').val();
+        var verbOne = $('input#verb-one').val();
+        var numberOne = $('input#number-one').val();
+        var verbTwo = $('input#verb-two').val();
+        // this adds the submitted word to the limerick via a span tag id
+        $('span#noun-one-new').text(nounOne);
+        $('span#verb-one-new').text(verbOne);
+        $('span#number-one-new').text(numberOne);
+        $('span#verb-two-new').text(verbTwo);
+
+   $('form#limerick-form').fadeOut('fast', function() {
+            $('div#limerick').show();
+        });
+    });
+});
+</script>
+</body>
+</html>
