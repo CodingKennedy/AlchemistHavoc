@@ -1,0 +1,122 @@
+<!doctype html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400' rel='stylesheet' type='text/css'>
+
+  <meta charset="utf-8">
+  <title>Secrets</title>
+  <link rel="stylesheet" href="Day8.css">
+   <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD/7gAAAET/AACz/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIiIiIgAAESIiIiIiAAARIiIiIiIAABEiIAESIgAAESIgARIiAAARIiABEiIAABEiIAESIgAAESIgARIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon">
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src='script.js'></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+<div class="nav">
+          <li><a href="../Projectmain.html">Home</a></li>
+        </ul>
+    </div>
+<div class="container">
+<h1>Secrets</h1>
+<div id ='section'>
+  <p>My name is Kennedy. I am an alchemist and web developer. Welcome to my page!</p></br></br>
+      <div id="bio">
+    <p>Here I will share some<a id="more-bio"> SECRETS </SEcr></a> of alchemy. They are hidden though. Feel free to click on anything that looks strange!</p></br></br>
+        <span id="more-bio-text">A true alchemist trust their instinct. Their mind is fully aware of the world around them as well as their connection to all things. </span>
+    </p>
+<div id ='section'>
+    <div id="SecondMessage">
+    <p>I wonder where this <a id="message">secret</a> is?</p></br>
+        <span id="found">"If you wish to know the Universe, know Love."</span>
+    </p>
+  <button id="modal-show-button">What is this?</button>
+  </div></br></br></br>
+
+<div id="my-modal">
+    <h1 style = "font-size: 30px;">Secret Message 3:</h1><p>Our dreams are meant to be shared.
+Let it grow. Let it live.
+Let us see what it will bring.
+When we share our love,
+we make a beautiful world.</p>
+    <button id="hideModal">Hide message</button>
+
+</div>
+ <div id="law">
+    <p>The <a id="hover">LAW</a> of exchange</p>
+        <span id="alchemy">"In order to obtain or create something, something of equal value must be lost or destroyed."</span>
+    </p>
+  </div>
+</div>
+
+
+</div>
+
+
+
+</body>
+<footer><script>document.getElementById("bio");
+var moreBio = document.getElementById("more-bio");
+
+var hiddenText = document.getElementById("more-bio-text");
+
+ moreBio.addEventListener("click", expandBio, false);
+
+function expandBio() {
+    var hiddenText = document.getElementById("more-bio-text");
+    hiddenText.style.display = "inline";
+}
+
+//new message
+
+document.getElementById("SecondMessage");
+var moreMessage = document.getElementById("message");
+
+var hidding = document.getElementById("found");
+
+ moreMessage.addEventListener("click", expandMessage, false);
+
+function expandMessage() {
+    var hidding = document.getElementById("found");
+    hidding.style.display = "inline";
+}
+
+// these are the two buttons
+var showButton = document.getElementById("modal-show-button");
+var hideButton = document.getElementById("hideModal");
+
+
+showButton.onclick = showModal;
+hideButton.onclick = hideModal;
+
+var modal = document.getElementById("my-modal");
+
+
+function showModal() {
+    modal.style.display = 'block';
+}
+
+function hideModal() {
+    modal.style.display = 'none';
+}
+
+document.getElementById("law");
+var chem = document.getElementById("hover");
+
+var hiddenLaw = document.getElementById("alchemy");
+ chem.addEventListener("mouseover", expandLaw, false);
+ chem.addEventListener("mouseout", hideLaw, false);
+
+function expandLaw() {
+    var hiddenLaw = document.getElementById("alchemy");
+    hiddenLaw.style.display = "block";
+}
+
+function hideLaw() {
+     var hiddenLaw = document.getElementById("alchemy");
+    hiddenLaw.style.display = 'none';
+}
+</script></footer>
+</html>
