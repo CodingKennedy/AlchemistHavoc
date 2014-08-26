@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Kennedy's portfolio page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="app.js"></script>
+<script src="http://code.onion.com/fartscroll.js"></script>
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(40.7127,-74.0059),
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap")
+  ,mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="main">
+        <ul>
+          <li id="nav-work"><a href="http://alchemisthavoc.com/">Work</a></li>
+          <!--<li id="nav-news"><a href="#news">Latest News</a></li>-->
+          <li id="nav-contact"><a href="https://www.linkedin.com/pub/kennedy-bhagwandeen/9a/499/750">Contact Me</a></li>
+          <li id="nav-contact"><a href="http://alchemisthavoc.com/Project/Projectmain.html">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<div id="container">
+<section id="hero">
+  <div class="main">
+    <h1>Hi my name is Kennedy <span>and this is my profile page!</span></h1>
+    <h2>My skills include:HTML, CSS, JavaScript, Jquery, and API's!</h2>
+    <div id="bio">
+    <p>Hey! My name is Kennedy and I am a <strong>Web Developer!</strong> I love creating web pages and playing around with Javascript and Jquery. I have spent the last few months learning from the amazing <a href="http://skillcrush.com">Skill Crush</a> blueprint classes. <a id="more-bio">Learn more.</a> <span id="more-bio-text">My goal is to become a Junior web developer by the fall. I have learned a lot and I know I will continue to do so!</span>
+
+    </div>
+</div>
+</section>
+
+<section id="work">
+  <div class="main">
+
+    <ul id="work-portfolio">
+      <li>
+        <div class="work-image">
+          <img src="http://skillcrush.com/wp-content/themes/skillcrush2.30/img/102-class/work-image-01.jpg" alt="Frontend vs. Backend" />
+        </div>
+        <h3 class="work-title">Frontend vs. Backend</h3>
+        <p class="work-description">Illustration for Skillcrush</p>
+        <p class="work-materials">Vector illustration</p>
+      </li>
+
+      <li>
+        <div class="work-image">
+          <img src="http://skillcrush.com/wp-content/themes/skillcrush2.30/img/102-class/work-image-02.jpg" alt="Frontend vs. Backend" />
+        </div>
+      <h3 class="work-title">Eat Cheesecake</h3>
+      <p class="work-description">Illustration for Skillcrush</p>
+      <p class="work-materials">Pen &amp; Paper, Sharpie, Scanned and Transfered to Photoshop</p>
+      </li>
+
+      <li>
+        <div class="work-image">
+                  <img src="http://skillcrush.com/wp-content/themes/skillcrush2.30/img/102-class/work-image-03.jpg" alt="Frontend vs. Backend" />
+        </div>
+      <h3 class="work-title">Hand Drawings</h3>
+      <p class="work-description">Illustration for Skillcrush</p>
+      <p class="work-materials">Pen&amp;Paper, Sharpie, Scanned and Transfered to Photoshop</p>
+      </li>
+
+      <li>
+        <div class="work-image">
+          <img src="http://skillcrush.com/wp-content/themes/skillcrush2.30/img/102-class/work-image-04.jpg" alt="Frontend vs. Backend" />
+        </div>
+      <h3 class="work-title">You’ve got an idea, now what?</h3>
+      <p class="work-description">Illustration for Skillcrush</p>
+      <p class="work-materials">Vector Illustration</p>
+      </li>
+    </ul>
+
+    <div class="clearfix"></div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <div class="main">
+
+    <h2>Like what you see? Let's meet for a cup of coffee. Email me at <a href="mailto:KennedyRSB@gmail.com">KennedyRSB@gmail.com</a></h2>
+    <h2>And connect with me on the interwebs: <a href="http://twitter.com/skillcrush">twitter</a>, <a href="http://facebook.com/skillcrush">facebook</a> &amp; <a href="http://linkedin.com/skillcrush">linkedin</a></h2>
+  </div>
+</section>
+</nav>
+  <h3 id = "map">Map of nyc!</h3>
+  <div id="googleMap" style="width:500px;height:380px;"></div>
+<footer>
+  <div class="main">
+      <p>&copy; Skillcrush 2014</p>
+  </div>
+</footer>
+</div>
+<script
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+
+
+$( "#more-bio" ).click(function() {
+  $( "#more-bio-text" ).toggle( "slow", function() {
+
+  });
+});
+fartscroll(100);
+
+</script>
+<script>function loadScript(){
+var script = document.createElement("script");
+script.src = "http://maps.googleapis.com/maps/api/js?v=3key=AIzaSyCzypoymJvZWZGR-FNzh-H5hXE17uPJcmQ&sensor=false&callback=initialize"; document.body.appendChild(script);
+}
+window.onload = loadScript;</script>
+
+</body>
+</html>
