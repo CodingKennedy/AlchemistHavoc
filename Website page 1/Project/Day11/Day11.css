@@ -52,6 +52,20 @@ body {
 background: black;
 }
 
+nav .li{
+  display: inline;
+  -webkit-box-pack:center;
+  margin-left:25px;
+}
+.nav a {
+  color: white;
+  text-shadow: 2px 2px  blue;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 .container {
   position: relative;
   width: 1080px;
