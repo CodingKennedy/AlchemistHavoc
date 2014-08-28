@@ -126,4 +126,19 @@ a:active {
 #list {
   color: blue;
 }
+.more-bio-text{
+  display: none;
+}
+.more-bio-summary{
+  display: none;
+}
+.Williamsburg-summary{
+  display: none;
+}
+.Columbus-Circle-summary{
+  display: none;
+}
+.Central-Park-summary{
+  display: none;
+}
 
