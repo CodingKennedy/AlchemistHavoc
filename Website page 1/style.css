@@ -119,9 +119,6 @@ body{
 .nav li {
   display: inline;
 
-.more-bio-text {
-  display:none;
-}
 
 /*.jumbotron ul{
   background:url('image/social.png');
