@@ -49,36 +49,62 @@ input, select { vertical-align: middle; }
 
 /* Write your CSS styles here */
 body {
-  background: grey;
-  background-size: 1450px, 1000px;
-  background-repeat: no-repeat;
+background: orange;
+}
+
+.container {
+  position: relative;
+  width: 380px;
+  height: 400px;
+  padding: 20px 90px 20px 95px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  float: left;
+  background:#FF8080;
+  opacity: 0.75;
+  font-size: 19px;
+}
+
+.container h3 {
+  color: #FFF8FF
+;
+  border-bottom-left-radius: 5px;
+  padding: 25px;
+  margin: 2px 5px 20px 20px;
+  font-size: 19px;
+  letter-spacing: 1.25px;
+  font-weight: lighter;
+  float:left;
+}
+
+h1 {
+text-align: center;
+font-size:50px;
+color: red;
+padding: 25px 25px 25px 25px;
 }
 
 
-h1{
-  background:black;
-  color:red;
-  font-size: 70px;
-  text-align: center;
-  font-family:'Arapey', serif;
-  height: 90px;
-  padding: 25px 25px 25px 25px;
+h3{
+
+  font-size: 25px;
+  color:#FF8080;
 }
 
 .nav li {
   display: inline;
-  }
+}
 a:link {
-    color: #00FF99;
+    color:#D6EBFF;
 }
 a:visited {
-    color: #00FF99;
+    color:#D6EBFF;
 }
 a:hover {
-    color: #00FF99;
+    color:#D6EBFF;
 }
 a:active {
-    color: #00FF99;
+    color:#D6EBFF;
 }
 #more-bio-text {
    display:none;
@@ -105,9 +131,5 @@ a:active {
    display:none;
    color: red;
    background: black;
-}
-#section{
-  padding: 25px 25px 25px 25px;
-  background:orange;
 }
 
