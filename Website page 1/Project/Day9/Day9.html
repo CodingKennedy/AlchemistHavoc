@@ -12,14 +12,22 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <script type="text/javascript" src="script"></script>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <h1>Poem</h1>
-<div class="containerTwo">
+<div class="nav">
           <li><a href="../Projectmain.html">Home</a></li>
         </ul>
       </div>
-<form id="limerick-form">
+
+<form id="limerick-form" style= "border-bottom-left-radius: 5px;
+  padding: 50px 50px 50px 50px;
+  margin: 20px 300px 20px 20px;
+  font-size: 40px;
+  letter-spacing: 1.25px;
+  font-weight: lighter;
+  float:right;">
     <!-- this input is the one you&#039;ll copy; make sure to change the name, the label and id for each one! -->
     <p>Enter a noun: <input type="text" name="noun-one" id="noun-one" /></p>
     <p>Enter a verb: <input type="text" name="verb-one" id="verb-one" /></p>
@@ -29,7 +37,13 @@
     <input type="submit" name="submit" value="Gimme a mad lib!" />
 </form>
 
-<div id="limerick">
+<div id="limerick"style= "border-bottom-left-radius: 5px 5px 5px 5px;
+  padding: 40px 40px 40px 40px;
+  margin: 20px 200px 20px 20px;
+  font-size: 40px;
+  letter-spacing: 1.25px;
+  float:right;
+  font-family: 'Lobster', cursive;">
     <p>There was a gold duck with a <span id="noun-one-new"></span>,</p>
     <p>Who said, "What the <span id="verb-one-new"></span>!</p>
     <p>Two Owls and a Hen, four sharks and <span id="number-one-new"> cars</span>,</p>

@@ -65,17 +65,7 @@ background: orange;
   font-size: 19px;
 }
 
-.container h3 {
-  color: #FFF8FF
-;
-  border-bottom-left-radius: 5px;
-  padding: 25px;
-  margin: 2px 5px 20px 20px;
-  font-size: 19px;
-  letter-spacing: 1.25px;
-  font-weight: lighter;
-  float:left;
-}
+
 
 h1 {
 text-align: center;
