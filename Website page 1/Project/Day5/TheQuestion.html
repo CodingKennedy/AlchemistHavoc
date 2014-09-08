@@ -20,10 +20,11 @@
 
 
     <h1>The Question: <span id="question"></span></h1>
-
-<h2> Answer: <span id="answer"></span></h2>
+<div class= "container">
+<h2> Answer: <span id="answer" style="font-size:25px;"></span></h2>
 
 <p><span id="message"></span></p>
+<div>
 <script id="jsbin-javascript">
 var question = 'What is your favorite color?';
 
@@ -50,7 +51,7 @@ if(answer.toLowerCase() =='red'){
   return "red is awesome!";
 }
 else if(answer=='blue'){
-  return"Blue is cool!!";
+  return"Blue rules!!";
 }
 else if(answer.toLowerCase()=='yellow'){
   return "Yellow is mellow!";
