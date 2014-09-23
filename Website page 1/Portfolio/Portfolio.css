@@ -49,15 +49,15 @@ input, select { vertical-align: middle; }
 
 /* Write your CSS styles here */
 body {
-background-image: url('image/background.jpg');
+background: #0099CC;
 }
 
 .container {
   position: relative;
-  background: rgba(220, 173, 226, 0.9);
+  background: rgba(0, 87, 255, 0.5);
   float: right;
   width: 380px;
-  height: 400px;
+  height: 300px;
   padding: 5px 0px 30px 20px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -65,31 +65,25 @@ background-image: url('image/background.jpg');
 }
 
 .container h3 {
-  color: rgb(7, 78, 139);
+  color: rgb(0, 0, 0);
   border-bottom-left-radius: 5px;
   padding: 5px;
   margin: 15px 5px 20px 10px;
   font-size: 19px;
-  letter-spacing: 1.25px;
+  letter-spacing: 2px;
   font-weight: lighter;
 }
 
 h1 {
 text-align: center;
 font-size: 65px;
-color: blue;
-}
-h2 {
-text-align: center;
-font-size: 30px;
-padding-top: 35px;
-color: blue;
+color: black;
 }
 
 h4{
   float: left;
   font-size: 25px;
-  color:blue;
+  color:black;
 }
 
 .nav li {
