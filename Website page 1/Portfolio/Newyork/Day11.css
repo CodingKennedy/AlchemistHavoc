@@ -1,0 +1,144 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+body {
+background: black;
+}
+
+nav .li{
+  display: inline;
+  -webkit-box-pack:center;
+  margin-left:25px;
+}
+.nav a {
+  color: white;
+  text-shadow: 2px 2px  blue;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.container {
+  position: relative;
+  width: 1080px;
+ /* height: 550px;*/
+  padding: 0px 10px 0px 5px;
+  margin: 25px 25px 25px 100px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background:white;
+  -webkit-box-pack:center;
+}
+
+.container h3 {
+  color: rgb(7, 78, 139);
+  border-bottom-left-radius: 5px;
+  padding: 25px 25px 25px 25px;
+  font-size: 19px;
+  letter-spacing: 1.25px;
+  font-weight: lighter;
+  -webkit-box-pack:center;
+}
+
+h1 {
+text-align: center;
+font-size:90px;
+color: black;
+padding: 0px 5px 5px 25px;
+color: white;
+-webkit-box-pack:center;
+}
+
+
+h3{
+
+  font-size: 25px;
+  color:blue;
+}
+
+.nav li {
+  display: inline;
+}
+a:link {
+    color:#D6EBFF;
+}
+a:visited {
+    color:#D6EBFF;
+}
+a:hover {
+    color:#D6EBFF;
+}
+a:active {
+    color:#D6EBFF;
+}
+
+
+#list {
+  color: blue;
+}
+.more-bio-text{
+  display: none;
+}
+.more-bio-summary{
+  display: none;
+}
+.Williamsburg-summary{
+  display: none;
+}
+.Columbus-Circle-summary{
+  display: none;
+}
+.Central-Park-summary{
+  display: none;
+}
+
