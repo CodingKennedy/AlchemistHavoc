@@ -79,3 +79,18 @@ h2{
       padding: 10px;
       font-size: 18px;
     }
+    .nav li {
+  display: inline;
+}
+a:link {
+    color:#D6EBFF;
+}
+a:visited {
+    color:#D6EBFF;
+}
+a:hover {
+    color:#D6EBFF;
+}
+a:active {
+    color:#D6EBFF;
+}
