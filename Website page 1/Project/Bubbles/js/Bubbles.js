@@ -6,3 +6,18 @@ $(document).ready(function() {
         $(this).fadeOut('fast');
     });
 });
+    $(document).ready(function(){
+
+        ion.sound({
+            sounds: [
+                {name: "button_tiny"}
+            ],
+            path: "sounds/",
+            preload: true,
+            volume: 1.0
+        });
+
+        $("div").on("click", function(){
+            ion.sound.play("button_tiny");
+        });
+    });
