@@ -1,5 +1,4 @@
-
-   /* Cross Browser Compatability CSS */
+/* Cross Browser Compatability CSS */
 /**
  * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
@@ -49,33 +48,28 @@ input, select { vertical-align: middle; }
 
 
 /* Write your CSS styles here */
-    body {
-      text-align: center;
-      background: url("http://dash.ga.co/assets/anna-bg.png");
-      background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: helvetica;
-    }
-    p {
-      font-size: 22px;
-    }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: red;
-      color: white;
-    }
-    .nav{
-      margin-top: 290px;
-      float:left;
-      text-decoration: none;
-    }
-     .nav li {
-    }
+
+body{
+background-image:url('bubbles.jpg');
+text-align: center;
+}
+h1{
+  font-size: 50px;
+  color:aqua;
+  padding: 15px;
+}
+h2{
+  color:aqua;
+  font:14px;
+}
+div{
+  background:rgba(63, 116, 181, 0.8);;
+  width:25px;
+  height:25px;
+  border-radius: 100%;
+  display: inline-block;
+}
+.nav li {
   display: inline;
 }
 a:link {
@@ -90,3 +84,5 @@ a:hover {
 a:active {
     color: #00FF99;
 }
+
+
