@@ -105,3 +105,8 @@ a:hover {
 a:active {
     color: black;
 }
+@media (max-width: 500px) {
+#one, #two,#three, #four, #five, #six{
+  font-size: 60px;
+}
+}
