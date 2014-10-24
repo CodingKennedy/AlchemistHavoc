@@ -96,3 +96,14 @@ a:active {
 div#limerick {
     display: none;
 }
+@media (max-width: 500px) {
+  p {
+    font-size: 20px;
+  }
+  body{
+   float:left;
+
+  }
+
+
+}
