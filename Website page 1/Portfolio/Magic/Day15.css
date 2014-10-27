@@ -65,6 +65,7 @@ h1{
 h2{
   font-size: 60px;
   color: #9933FF;
+  text-shadow: 3px 2px black;
 }
 #answer {
     display: none;
@@ -78,4 +79,33 @@ h2{
       border: 1px;
       padding: 10px;
       font-size: 18px;
+      .nav li {
+  display: inline;
+}
+a:link {
+    color:#D6EBFF;
+}
+a:visited {
+    color:#D6EBFF;
+}
+a:hover {
+    color:#D6EBFF;
+}
+a:active {
+    color:#D6EBFF;
+}
     }
+ @media (max-width: 500px) {
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+    }
+ input {
+
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
+
