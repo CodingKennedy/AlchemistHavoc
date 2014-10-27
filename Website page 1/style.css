@@ -105,6 +105,10 @@ a:active {color:#00A300;}
 body{
   background: rgba(76, 140, 165, 0.9);
 }
+.nav li {
+  display: inline;
+}
+
 .nav a {
   color: #CC66FF;
   text-shadow: 2px 2px  #000103;
@@ -113,35 +117,15 @@ body{
   padding: 14px 10px;
   text-transform: uppercase;
   text-decoration: none;
+
 }
 
-.nav li {
-  display: inline;
 
-
-/*.jumbotron ul{
-  background:url('image/social.png');
-  background-image: url(http://skillcrush.com/static/resume-three/images/social.png);
-  background-position: 63px 62px;
-  margin-right: 265px;
-  height: 30px;
-  display: block;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}*/
-/*.jumbotron a {
-color: #62339C;
-text-decoration: none;*/
-
-/*container {
-  position: relative;
-  top:100px;
-  background:rgba(76, 140, 165, 0.9);
-  margin-top: 40px;
-  width: 180px;
-  height: 485px;
-  padding: 5px 0px 10px 20px;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-}*/
+@media (max-width: 500px) {
+ .nav a {
+    display: block;
+    font-size: 20px;
+    text-shadow: 2px 2px  #000103;
+    padding:2px 20px;
+      }
+    }
