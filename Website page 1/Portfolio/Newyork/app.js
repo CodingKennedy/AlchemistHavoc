@@ -3,30 +3,30 @@
     });
 
  $( ".more-bio" ).click(function() {
-  $( ".more-bio-text" ).toggle( "slow", function() {
+  $( ".more-bio-text" ).toggle( 2000, function() {
 
   });
 });
 
 $( ".more-text" ).click(function() {
-  $( ".more-bio-summary" ).toggle( "slow", function() {
+  $( ".more-bio-summary" ).toggle( 2000, function() {
 
   });
 });
 
 $( ".Williams" ).click(function() {
-  $( ".Williamsburg-summary" ).toggle( "slow", function() {
+  $( ".Williamsburg-summary" ).toggle( 2000, function() {
 
   });
 });
 
 $( ".Circle" ).click(function() {
-  $( ".Columbus-Circle-summary" ).toggle( "slow", function() {
+  $( ".Columbus-Circle-summary" ).toggle( 2000, function() {
 
   });
 });
 $( ".park" ).click(function() {
-  $( ".Central-Park-summary" ).toggle( "slow", function() {
+  $( ".Central-Park-summary" ).toggle( 2000, function() {
 
   });
 });
