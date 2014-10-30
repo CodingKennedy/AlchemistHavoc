@@ -19,15 +19,10 @@
     </div>
 
 <div class="container">
-    <h3>Hey there!</h3>
-    <h3>
-    <p>I figure now is a good time to introduce myself. My name is Kennedy. I am a writer, reader, alchemist, and soon to be web developer! This is my project/playground. I have recently learned html and css. I know ruby, and have been slowly picking up javascript and jQuery which is why I started this project. Practice makes perfect. I want to create a new website everyday where I can practice what I learn. I’ll call this my 61 day project. This is my first page!!! Hope you stick around for the adventure!  </p>
-    </h3>
-</div>
+    <h3>Hey there!</h3><br/>
 
-
-
-    <select name="list" id="list" accesskey="target">
+    <p>I figure now is a good time to introduce myself. My name is Kennedy. I am a writer, reader, alchemist, and soon to be web developer! This is my project/playground. I have recently learned html and css. I know ruby, and have been slowly picking up javascript and jQuery which is why I started this project. Practice makes perfect. I want to create a new website everyday where I can practice what I learn. I’ll call this my 61 day project. This is my first page!!! Hope you stick around for the adventure!  </p><br/>
+<select name="list" id="list" accesskey="target">
     <option value='none' selected>Choose a project</option>
     <option value="Day14/Day14.html">Blog</option>
     <option value="Day11/Day11.html">New York</option>
@@ -49,9 +44,11 @@
       <option value="Sketchi/Sketchy.html">Sketchii</option>
 </select>
 <input type=button value="Go" onclick="goToNewPage()" />
+</div>
 
-</body>
-<footer>  <script type="text/javascript">
+
+
+ <script type="text/javascript">
     function goToNewPage()
     {
         var url = document.getElementById('list').value;
@@ -59,5 +56,7 @@
             window.location = url;
         }
     }
-</script></footer>
+</script>
+</body>
+
 </html>
