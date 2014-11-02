@@ -61,7 +61,8 @@ div{
   width:24px;
   height:24px;
   display: inline-block;
-  /*border-style: solid;*/
+    border-style: solid;
+    border-width: 1px;
 }
 button{
   float:left;
