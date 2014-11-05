@@ -50,19 +50,20 @@ input, select { vertical-align: middle; }
 /* Write your CSS styles here */
 body {
 background: orange;
+text-align: center;
 }
 
 .container {
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   width: 380px;
   height: 400px;
-  padding: 20px 90px 20px 95px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  float: left;
   background:#FF8080;
   opacity: 0.75;
   font-size: 19px;
+  text-align: center;
 }
 
 
@@ -122,4 +123,5 @@ a:active {
    color: red;
    background: black;
 }
+
 
