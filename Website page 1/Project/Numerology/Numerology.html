@@ -1,0 +1,95 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Numerology</title>
+  <link rel="stylesheet" href="Numerology.css">
+<!-- <script type="text/javascript" src="app.js"></script> -->
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAPqNYA1rSfAKhHCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgERAiARECICIBECIBECIBAiAiIiICIBEQIiAiAiIBERAiICICIhEREiAiIiICIRACAAIiIAAgAiIiIiIiIiIiIiIiIiIiIiACACIiIgAgARICICICIiERECIAIgAiARECIiAiAiIgECIBIiIiECICIBEQIgERAiIBERAiAREQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="nav">
+          <li><a href="../Projectmain.html">Home</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <h1>The Question: <span id="question"></span></h1>
+<div class= "container">
+<h2> Answer: <span id="answer" style="font-size:25px;"></span></h2>
+
+<p><span id="message"></span></p>
+<div>
+<script>
+    var question = "Enter your date of birth: mmddyyyy"
+    var answer = prompt(question), output = [],  sNumber = answer.toString();
+for (var i = 0, len = sNumber.length; i < len; i += 1) {
+    output.push(+sNumber.charAt(i));
+}
+for (var i = 0, sum = 0; i < output.length; sum += output[i++]);
+
+// console.log(sum)
+
+if (sum > 9){
+     var answerTwo = sum, outputTwo = [],  sNumberTwo = answerTwo.toString();
+    for (var i = 0, length = sNumberTwo.length; i < length; i += 1) {
+    outputTwo.push(+sNumberTwo.charAt(i));
+}
+for (var i = 0, sum = 0; i < outputTwo.length; sum += outputTwo[i++]);
+    }
+
+    var message = checkAnswer(sum);
+
+// add our question to the h1
+var questionElem = document.getElementById('question');
+questionElem.innerHTML = question;
+
+// add the user's answer to the h2
+var answerElem = document.getElementById('answer');
+answerElem.innerHTML = answer;
+
+// add our message back to the user to the p
+var messageElem = document.getElementById('message');
+messageElem.innerHTML = message;
+
+
+function checkAnswer(answer) {
+if(answer == 1){
+  return 'One is the leader. The number one indicates the ability to stand alone, and is a strong vibration. Ruled by the Sun.';
+}
+else if(answer == '2'){
+  return 'Two is the mediator and peace-lover. The number two indicates the desire for harmony. It is a gentle, considerate, and sensitive vibration. Ruled by the Moon.';
+}
+else if(answer == '3'){
+  return 'Number Three is a sociable, friendly, and outgoing vibration. Kind, positive, and optimistic, Three’s enjoy life and have a good sense of humor. Ruled by Jupiter.';
+}
+else if(answer == '4'){
+  return 'four is the worker. Practical, with a love of detail, Fours are trustworthy, hard-working, and helpful. Ruled by Uranus.';
+}
+else if(answer == '5'){
+  return 'Five is the freedom lover. The number five is an intellectual vibration. These are ‘idea’ people with a love of variety and the ability to adapt to most situations. Ruled by Mercury.';
+}
+else if(answer == '6'){
+  return 'Six is the peace lover. The number six is a loving, stable, and harmonious vibration. Ruled by Venus.';
+}
+else if(answer == '7'){
+  return 'Seven is the deep thinker. The number seven is a spiritual vibration. These people are not very attached to material things, are introspective, and generally quiet. Ruled by Neptune.';
+}
+else if(answer == '8'){
+  return 'Eight is the manager. Number Eight is a strong, successful, and material vibration. Ruled by Saturn.';
+}
+else if(answer == '9'){
+  return 'Nine is the teacher. Number Nine is a tolerant, somewhat impractical, and sympathetic vibration. Ruled by Mars.';
+}
+else{
+  return 'SOMETHING WENT WRONG!';
+}
+};
+</script>
+
+</body>
+</html>
