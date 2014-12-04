@@ -2,8 +2,8 @@
 <head>
   <meta charset="utf-8">
   <title>Numerology</title>
-  <link rel="stylesheet" href="Numerology.css">
-<!-- <script type="text/javascript" src="app.js"></script> -->
+  <link rel="stylesheet" href="style/Numerology.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:700italic' rel='stylesheet' type='text/css'>
   <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAPqNYA1rSfAKhHCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgERAiARECICIBECIBECIBAiAiIiICIBEQIiAiAiIBERAiICICIhEREiAiIiICIRACAAIiIAAgAiIiIiIiIiIiIiIiIiIiIiACACIiIgAgARICICICIiERECIAIgAiARECIiAiAiIgECIBIiIiECICIBEQIgERAiIBERAiAREQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -18,10 +18,10 @@
 
 
 
-    <h1>The Question: <span id="question"></span></h1>
+    <h1>Numerology: <span id="question"></span></h1>
 <div class= "container">
-<h2> Answer: <span id="answer" style="font-size:25px;"></span></h2>
-
+<h2><span id="answer"</span></h2><br/><br/>
+<br/>
 <p><span id="message"></span></p>
 <div>
 <script>
@@ -45,8 +45,8 @@ for (var i = 0, sum = 0; i < outputTwo.length; sum += outputTwo[i++]);
     var message = checkAnswer(sum);
 
 // add our question to the h1
-var questionElem = document.getElementById('question');
-questionElem.innerHTML = question;
+// var questionElem = document.getElementById('question');
+// questionElem.innerHTML = question;
 
 // add the user's answer to the h2
 var answerElem = document.getElementById('answer');
