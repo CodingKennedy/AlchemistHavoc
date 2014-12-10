@@ -48,35 +48,24 @@ input, select { vertical-align: middle; }
 
 
 /* Write your CSS styles here */
-
-body{
-  background:#0099CC;
-text-align: center;
+body {
+  background: url('image/valley.JPG');
+  background-size: 1450px, 1000px;
+  background-repeat: no-repeat;
 }
+
+
 h1{
-  font-size: 40px;
-  color:aqua;
+  background:rgb(255,0,0);
+  font-size: 50px;
+  opacity: 0.45;
+  font-family:'Arapey', serif;
 }
-div{
-  width:30px;
-  height:30px;
-  display: inline-block;
-    border-style: solid;
-    border-width: 1px;
+.containerTwo{
+  float: right;
 }
-button{
-  float:left;
-}
- @media (max-width: 500px) {
-      div{
-  width:15px;
-  height:15px;
-    }
-
-    .nav {
+.nav li {
   display: inline;
-  text-decoration: none;
-  /*float: right;*/
 }
 a:link {
     color: #00FF99;
@@ -88,4 +77,5 @@ a:hover {
     color: #00FF99;
 }
 a:active {
-
+    color: #00FF99;
+}

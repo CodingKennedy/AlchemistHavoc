@@ -48,35 +48,18 @@ input, select { vertical-align: middle; }
 
 
 /* Write your CSS styles here */
-
-body{
-  background:#0099CC;
+body {
+  background: url('image/Siberia.jpg');
+  background-size: 1450px, 1000px;
+  background-repeat: no-repeat;
+}
+h1 {
 text-align: center;
+font-size: 45px;
+color: #99CCFF;
 }
-h1{
-  font-size: 40px;
-  color:aqua;
-}
-div{
-  width:30px;
-  height:30px;
-  display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-}
-button{
-  float:left;
-}
- @media (max-width: 500px) {
-      div{
-  width:15px;
-  height:15px;
-    }
-
-    .nav {
+.nav li {
   display: inline;
-  text-decoration: none;
-  /*float: right;*/
 }
 a:link {
     color: #00FF99;
@@ -88,4 +71,5 @@ a:hover {
     color: #00FF99;
 }
 a:active {
-
+    color: #00FF99;
+}

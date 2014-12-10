@@ -48,35 +48,27 @@ input, select { vertical-align: middle; }
 
 
 /* Write your CSS styles here */
-
-body{
-  background:#0099CC;
-text-align: center;
+body {
+  background: teal;
+  background-size: 1450px, 1000px;
+  background-repeat: no-repeat;
+  text-align: center;
 }
-h1{
-  font-size: 40px;
-  color:aqua;
-}
-div{
-  width:30px;
-  height:30px;
-  display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-}
-button{
-  float:left;
-}
- @media (max-width: 500px) {
-      div{
-  width:15px;
-  height:15px;
+iframe {
+    width:900px;
+    height:500px;
     }
 
-    .nav {
+h1{
+  background:rgb(0,206,209);;
+  font-size: 50px;
+  opacity: 0.45;
+}
+.containerTwo{
+  float: right;
+}
+.nav li {
   display: inline;
-  text-decoration: none;
-  /*float: right;*/
 }
 a:link {
     color: #00FF99;
@@ -88,4 +80,17 @@ a:hover {
     color: #00FF99;
 }
 a:active {
-
+    color: #00FF99;
+}
+@media (max-width: 700px) {
+ iframe {
+    width:600px;
+    height:350px;
+    }
+  }
+@media (max-width: 500px) {
+ iframe {
+    width:400px;
+    height:250px;
+    }
+  }

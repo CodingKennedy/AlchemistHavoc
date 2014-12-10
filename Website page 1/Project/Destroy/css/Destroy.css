@@ -50,16 +50,16 @@ input, select { vertical-align: middle; }
 /* Write your CSS styles here */
 
 body{
-  background:#0099CC;
-text-align: center;
+  background:#B870FF;
+  text-align: center;
 }
 h1{
   font-size: 40px;
-  color:aqua;
+  color:#660066;
 }
 div{
   width:30px;
-  height:30px;
+  height:49px;
   display: inline-block;
     border-style: solid;
     border-width: 1px;
@@ -70,7 +70,7 @@ button{
  @media (max-width: 500px) {
       div{
   width:15px;
-  height:15px;
+  height:29px;
     }
 
     .nav {
