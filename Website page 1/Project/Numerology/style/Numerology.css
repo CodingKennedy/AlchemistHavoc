@@ -1,4 +1,5 @@
-/* Cross Browser Compatability CSS */
+
+   /* Cross Browser Compatability CSS */
 /**
  * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
@@ -48,44 +49,49 @@ input, select { vertical-align: middle; }
 
 
 /* Write your CSS styles here */
-
-body{
-  background:#0099CC;
-text-align: center;
-}
-h1{
-  font-size: 40px;
-  color:aqua;
-}
-div{
-  width:30px;
-  height:30px;
-  display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-}
-button{
-  float:left;
-}
- @media (max-width: 500px) {
-      div{
-  width:15px;
-  height:15px;
+body {
+      text-align: center;
+      background: url("Numerology.jpg");
+      background-position: center;
+      font-family: 'Metrophobic', Arial, serif; font-weight: 400;
     }
+h1{
+  font-size: 90px;
+  color:#00CCFF;
+  font-weight: bold;
+}
+h2{
+  font-size: 60px;
+  color: #9933FF;
+}
+#answer {
+    display: none;
+    color: #33CCCC;
+    font-size: 50px;
+    font-weight: bold;
+}
+#message{
 
-    .nav {
-  display: inline;
-  text-decoration: none;
-  /*float: right;*/
+    color: #33CCCC;
+    font-size: 50px;
+    font-weight: bold;
 }
-a:link {
-    color: #00FF99;
+ input {
+      border: 1px;
+      padding: 10px;
+      font-size: 18px;
+    }
+ @media (max-width: 500px) {
+h1{
+  font-size: 50px;
 }
-a:visited {
-    color: #00FF99;
-}
-a:hover {
-    color: #00FF99;
-}
-a:active {
+h2{
+  font-size: 40px;
+    }
+ input {
+
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
 
