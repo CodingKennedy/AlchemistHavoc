@@ -1,0 +1,40 @@
+body{
+  background:white
+}
+.container_one{
+  background: white;
+  padding-left: 30px;
+}
+.container_one p{
+  padding-left: 150px;
+}
+.alchemist{
+  display: none;
+}
+.container_two{
+  background: black;
+  color:white;
+}
+.container_two h1{
+  background: black;
+  color:white;
+  text-align:center;
+  padding-left: 90px;
+}
+.container_two p{
+  color:white;
+  padding-left: 190px;
+  padding-right: 15px;
+  text-align:center;
+}
+
+.container_three{
+  text-align:center;
+}
+.container_four{
+  text-align:center;
+}
+.container_four h1{
+  color:#0099CC;
+}
+
