@@ -38,7 +38,7 @@ a{
 
 
 .container_four{
-  background:#D6C2FF;
+  background:white;
   text-align:center;
 }
 .container_four h1{
@@ -49,5 +49,4 @@ a{
   padding: 0px;
 }.container_four p{
   text-shadow: 0px 0px;
-
 }

@@ -1,8 +1,32 @@
+body{
+  text-align: center;
+}
 .container_four{
   background:#D6C2FF;
-
+  float:none;
   text-align:center;
 }
 .container_four h1{
   color:#0099CC;
+}
+.why{
+  background:#0099CC;
+  height: auto;
+}
+.who{
+  background:#FF5050;
+}
+.know{
+  background:#009933;
+  height: auto;
+
+}
+.end{
+  background:#FFCC66;
+  height: auto;
+}
+img photo{
+  float:right;
+  height:100px;
+  width:100px;
 }
