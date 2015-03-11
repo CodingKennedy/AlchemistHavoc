@@ -14,18 +14,11 @@ body{
 .container_two{
   background: black;
   color:white;
+  text-align:center;
 }
 .container_two h1{
   background: black;
   color:white;
-  text-align:center;
-  padding-left: 90px;
-}
-.container_two p{
-  color:white;
-  padding-left: 190px;
-  padding-right: 15px;
-  text-align:center;
 }
 
 .container_three{
