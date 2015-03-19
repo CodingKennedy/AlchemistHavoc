@@ -1,5 +1,5 @@
 body{
-  background:white
+  background:white;
 }
 .container_one{
   background: white;
@@ -12,13 +12,18 @@ body{
   display: none;
 }
 .container_two{
-  background: black;
+  background:url('../img/WilliamsburgBridge.png')no-repeat center center fixed; ;
   color:white;
   text-align:center;
+  text-shadow: 2px 2px black;
 }
 .container_two h1{
-  background: black;
   color:white;
+  text-shadow: 2px 2px black;
+}
+.container_two h3{
+  color:white;
+  text-shadow: 2px 2px black;
 }
 
 .container_three{
