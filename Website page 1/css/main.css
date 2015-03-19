@@ -179,3 +179,13 @@ footer {
 	bottom:0;
 	left:0;
 }
+ @media (max-width: 400px) {
+  .box {
+  text-align: center;
+	width:260px;
+	height:195px;
+	margin:0px;
+	float:left;
+	position: relative;
+}
+    }
