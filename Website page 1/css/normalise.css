@@ -108,10 +108,10 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers.
  */
 
-a:active,
+/*a:active,
 a:hover {
     outline: 0;
-}
+}*/
 
 /* ==========================================================================
    Typography
@@ -283,12 +283,12 @@ sub {
  * Addresses margins set differently in IE 6/7.
  */
 
-dl,
+/*dl,
 menu,
 ol,
 ul {
     margin: 1em 0;
-}
+}*/
 
 dd {
     margin: 0 0 0 40px;
@@ -301,22 +301,14 @@ dd {
 menu,
 ol,
 ul {
-    padding: 0 0 0 20px;
+    /*padding: 0 0 0 20px;*/
 }
 
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
 
-nav ul,
-nav ol {
-    list-style: none;
-    list-style-image: none;
-}
 
-li {
-	margin-bottom:6px;
-}
 
 /* ==========================================================================
    Embedded content
@@ -437,10 +429,10 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 
-button[disabled],
+/*button[disabled],
 input[disabled] {
     cursor: default;
-}
+}*/
 
 /*
  * 1. Addresses box sizing set to content-box in IE 8/9.
@@ -543,11 +535,11 @@ body {
     background: #b3d4fc;
     text-shadow: none;
 }
-
+/*
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
-}
+}*/
 
 /*
  * A better looking default horizontal rule
@@ -570,6 +562,8 @@ hr {
 
 img {
     vertical-align: middle;
+     width:260px;
+    height:205px;
 }
 
 /*
