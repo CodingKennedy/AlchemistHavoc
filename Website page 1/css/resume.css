@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+}
+.accelerate{
+  width:700px;
+  height:auto;
+  text-align: center;
+  margin:auto;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  color:#008AB8;
+}
+p{
+  font-family: 'Droid Serif', serif;
+}
+h4{
+  font-family: 'Droid Serif', serif;
+}
+h3{
+  font-family: 'Droid Serif', serif;
+}
+li{
+  list-style-type: none;
+}
+a{
+  color:#00E6E6;
+}
+.container_four{
+  background:#667474;
+  text-align:center;
+  color:white;
+}
+.container_four h1{
+  color:#0099CC;
+}
+   @media (max-width: 700px) {
+     .resume{
+      width:640px;
+      margin:auto;
+     }
+     .accelerate{
+      width:640px;
+      margin:auto;
+     }
+    }
+   @media (max-width: 600px) {
+     .resume{
+      width:340px;
+      margin:auto;
+     }
+     .accelerate{
+      width:340px;
+      margin:auto;
+     }
+    }
