@@ -179,13 +179,27 @@ footer {
 	bottom:0;
 	left:0;
 }
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
   .box {
   text-align: center;
 	width:260px;
 	height:195px;
-	margin:0px;
+	margin:10px;
 	float:left;
 	position: relative;
 }
+.container {
+	width: 30px;
+	padding:20px;
+	margin:50px auto 0 auto;
+	float:left;
+
+}
+footer {
+	display: none;
+}
+.projects{
+	display:none;
+}
+
     }
