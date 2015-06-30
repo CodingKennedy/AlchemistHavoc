@@ -51,7 +51,7 @@ input, select { vertical-align: middle; }
 /* Write your CSS styles here */
 body {
       text-align: center;
-      background: url("bamboo.jpg");
+      background: url("../image/bamboo.jpg");
       background-size: cover;
       background-position: center;
       color: white;
@@ -132,11 +132,8 @@ h2{
       color:blue;
       border-style: solid;
       border-color: black;
-      background: blue;
-      background: -webkit-linear-gradient(#9CEFFF, #90FFCA); /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(#9CEFFF, #90FFCA); /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(#9CEFFF, #90FFCA); /* For Firefox 3.6 to 15 */
-      background: linear-gradient(#9CEFFF, #90FFCA); /* Standard syntax */
+      background: white;
+
     }
  @media (max-width: 500px) {
 h1{
