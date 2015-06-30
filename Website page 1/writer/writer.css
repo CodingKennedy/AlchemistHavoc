@@ -1,0 +1,154 @@
+
+   /* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+body {
+      text-align: center;
+      background: url("bamboo.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    a{
+      color:black;
+      text-decoration:none;
+    }
+    li{
+     list-style-type: none;
+
+    }
+h1{
+  font-size: 90px;
+  color:#51E8B7;
+  text-shadow: 3px 3px black;
+}
+h2{
+  font-size: 30px;
+  color: black;
+  text-shadow: 2px 2px black;
+}
+#character {
+    display: none;
+    color: #FF830B;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px #7A5C99;
+}
+
+
+#action {
+    display: none;
+    color: #FF0B59;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px #7A5C99;
+}
+
+#place {
+    display: none;
+    color: #90FFCA;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px #7A5C99;
+}
+
+#time {
+    display: none;
+    color: #FF1BE8;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px #7A5C99;
+}
+
+#cause {
+    display: none;
+    color: #16D4FF;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px #7A5C99;
+}
+
+#plot {
+    display: none;
+    color: #09E8D5;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px #7A5C99;
+}
+
+ input {
+      border: 2px;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 45%;
+      color:blue;
+      border-style: solid;
+      border-color: black;
+      background: blue;
+      background: -webkit-linear-gradient(#9CEFFF, #90FFCA); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#9CEFFF, #90FFCA); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#9CEFFF, #90FFCA); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#9CEFFF, #90FFCA); /* Standard syntax */
+    }
+ @media (max-width: 500px) {
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+    }
+ input {
+
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
+
